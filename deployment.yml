@@ -1,16 +1,16 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: Devops-Mega-project
+  name: devops-Mega-project
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: Devops-Mega-project
+      app: devops-Mega-project
   template:
     metadata:
       labels:
-        app: Devops-Mega-project
+        app: devops-Mega-project
     spec:
       containers:
         - name: Devops-Mega-project
