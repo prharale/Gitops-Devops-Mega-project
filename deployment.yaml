@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: devops-mega-project:1.0.0-16
+  name: devopsmegaproject
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: devops-mega-project:1.0.0-16
+      app: devopsmegaproject
   template:
     metadata:
       labels:
-        app: devops-mega-project:1.0.0-16
+        app: devopsmegaproject
     spec:
       containers:
-        - name: devops-mega-project:1.0.0-16
-          image: mydevopsuser46/devops_mega_project:1.0.0-16
+        - name: devopsmegaproject
+          image: mydevopsuser46/devops-mega-project:1.0.0-16
           resources:
             limits:
               memory: "256Mi"

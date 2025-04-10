@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-              APP_NAME = "devops_mega_project"
+              APP_NAME = "devops-mega-project"
     }
 
     stages{

@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: devops-mega-project
+  name: devopsmegaproject
   labels:
-    app: devops-mega-project 
+    app: devopsmegaproject 
 spec:
   selector:
-    app: devops-mega-project
+    app: devopsmegaproject
 
   ports:
     - port: 8080
