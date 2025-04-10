@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: devops-mega-project
-          image: mydevopsuser46/devops-mega-project:1.0.0-12
+          image: mydevopsuser46/devops_mega_project:1.0.0-12
           resources:
             limits:
               memory: "256Mi"
