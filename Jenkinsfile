@@ -22,7 +22,7 @@ pipeline {
             steps {
                 sh """
                    cat deployment.yaml
-                   sed -i 's/${APP_NAME}.*/${APP_NAME}:latest/g' deployment.yaml
+                   sed -i 's/${APP_NAME}.*/${APP_NAME}:1.0.0-12/g' deployment.yaml
                    cat deployment.yaml
                 """
             }
